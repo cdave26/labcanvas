@@ -1,0 +1,33 @@
+/*
+ Theme Name:     Divi Child
+ Theme URI:      https://www.elegantthemes.com/gallery/divi/
+ Description:    Divi Child Theme
+ Author:         Elegant Themes
+ Author URI:     https://www.elegantthemes.com
+ Template:       Divi
+ Version:        1.0.0
+*/
+
+@import './assets/scss/style';
+
+.contact_button {
+	margin-left: 70px;
+	width: 200px;
+	height: 40px;
+	border-radius: 20px;
+	font-size: 16px;
+	font-weight: 700;
+	font-family: 'Roboto';
+	background-color: #fff8dc;
+}
+
+.nav-menu {
+	display: block;
+	margin-left: 20px;
+	font-size: 16px;
+	font-weight: 400;
+}
+.container-nav-menu {
+	margin-top: 60px;
+	display: flex !important;
+}

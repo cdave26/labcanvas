@@ -1,0 +1,17 @@
+.product-category-menu .wc-block-product-categories-list {
+	display: flex;
+
+	a {
+		margin-right: 50px;
+		font-size: 24px;
+	}
+}
+
+.product-category-menu .wc-block-product-categories-list-item-count {
+	display: none;
+}
+
+.secondary-menu-container .et_pb_widget_area_left {
+	border-right: 0px solid rgba(0, 0, 0, 0.1) !important;
+	padding-right: 0px;
+}

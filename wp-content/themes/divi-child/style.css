@@ -1,0 +1,113 @@
+/*
+ Theme Name:     Divi Child
+ Theme URI:      https://www.elegantthemes.com/gallery/divi/
+ Description:    Divi Child Theme
+ Author:         Elegant Themes
+ Author URI:     https://www.elegantthemes.com
+ Template:       Divi
+ Version:        1.0.0
+*/
+/* mixins.scss */
+.et_pb_searchsubmit::before {
+  content: "Search";
+}
+
+.et_pb_searchsubmit::after {
+  content: "\\1F517" !important;
+}
+
+.main-header__secondary-header {
+  margin-top: -70px;
+  position: absolute;
+  right: 10%;
+}
+.main-header__secondary-menu .widget_block {
+  width: 100% !important;
+  margin-bottom: 0px !important;
+  border-bottom: 1px solid #404040 !important;
+  border-right: 0px !important;
+}
+.main-header__secondary-menu.et_pb_widget_area_left {
+  border-right: 0px !important;
+}
+
+@media (max-width: 1520px) {
+  .main-header__primary-header {
+    width: 95% !important;
+  }
+  .main-header__secondary-header {
+    width: 100% !important;
+    right: 0%;
+  }
+  .header-primary-logo .et_pb_image_wrap {
+    width: 70%;
+    left: 100px;
+  }
+}
+.product-category-menu .wc-block-product-categories-list {
+  display: flex;
+}
+.product-category-menu .wc-block-product-categories-list a {
+  margin-right: 50px;
+  font-size: 24px;
+}
+
+.product-category-menu .wc-block-product-categories-list-item-count {
+  display: none;
+}
+
+.secondary-menu-container .et_pb_widget_area_left {
+  border-right: 0px solid rgba(0, 0, 0, 0.1) !important;
+  padding-right: 0px;
+}
+
+.woocommerce .main-header__secondary-header {
+  margin-top: -70px;
+  position: absolute;
+  right: 10%;
+}
+.woocommerce .main-header__secondary-menu .widget_block {
+  width: 100% !important;
+  margin-bottom: 0px !important;
+  border-bottom: 1px solid #404040 !important;
+  border-right: 0px !important;
+}
+.woocommerce .main-header__secondary-menu.et_pb_widget_area_left {
+  border-right: 0px !important;
+}
+@media (max-width: 1520px) {
+  .woocommerce .main-header__primary-header {
+    width: 95% !important;
+  }
+  .woocommerce .main-header__secondary-header {
+    width: 100% !important;
+    right: 0%;
+  }
+  .woocommerce .header-primary-logo .et_pb_image_wrap {
+    width: 70%;
+    left: 100px;
+  }
+}
+
+.contact_button {
+  margin-left: 70px;
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Roboto";
+  background-color: #fff8dc;
+}
+
+.nav-menu {
+  display: block;
+  margin-left: 20px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.container-nav-menu {
+  margin-top: 60px;
+  display: flex !important;
+}

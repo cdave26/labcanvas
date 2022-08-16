@@ -1,0 +1,42 @@
+.et_pb_searchsubmit::before {
+	content: 'Search';
+}
+
+.et_pb_searchsubmit::after {
+	content: '\\1F517' !important;
+}
+.main-header {
+	&__secondary-header {
+		margin-top: -70px;
+		position: absolute;
+		right: 10%;
+	}
+
+	&__secondary-menu {
+		.widget_block {
+			width: 100% !important;
+			margin-bottom: 0px !important;
+			border-bottom: 1px solid #404040 !important;
+			border-right: 0px !important;
+		}
+		&.et_pb_widget_area_left {
+			border-right: 0px !important;
+		}
+	}
+}
+
+@media (max-width: 1520px) {
+	.main-header {
+		&__primary-header {
+			width: 95% !important;
+		}
+		&__secondary-header {
+			width: 100% !important;
+			right: 0%;
+		}
+	}
+	.header-primary-logo .et_pb_image_wrap {
+		width: 70%;
+		left: 100px;
+	}
+}
